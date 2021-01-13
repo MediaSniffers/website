@@ -22,7 +22,6 @@
 
 	// Play initial animations on page load.
 		$window.on('load', function() {
-			window.location.replace('http://mediasniffersserver.us-east-2.elasticbeanstalk.com');
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
