@@ -8,7 +8,7 @@
 	var	$window = $(window),
 		$banner = $('#banner'),
 		$body = $('body');
-
+	window.location.replace('http://mediasniffersserver.us-east-2.elasticbeanstalk.com');
 	// Breakpoints.
 		breakpoints({
 			default:   ['1681px',   null       ],
